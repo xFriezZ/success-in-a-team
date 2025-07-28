@@ -15,7 +15,9 @@
       <nav class="header__nav">
         <ul class="header__nav-list">
           <li class="header__nav-item">
-            <a class="header__nav-link header__nav-link--active"> Главная </a>
+            <a href="#0" class="header__nav-link header__nav-link--active">
+              Главная
+            </a>
           </li>
           <li class="header__nav-item">
             <a class="header__nav-link" href="#0"> О нас </a>
@@ -31,7 +33,8 @@
         Успех в команде: навыки, которые определяют карьеру
       </h1>
       <section class="section-intro">
-        <article class="section-intro__text-block">
+        <h2 class="visually-hidden">Интро</h2>
+        <div class="section-intro__wrapper">
           <p class="section-intro__paragraph section-intro__paragraph-header">
             Современный мир требует от людей не только отличного знания своей
             профессии, но и умения работать в команде. Работа в команде – это
@@ -54,7 +57,7 @@
             эффективно работать в группе, лучше справляется со своими
             обязанностями и способен помогать коллегам.
           </p>
-        </article>
+        </div>
       </section>
       <section class="card">
         <h2 class="card-title">
@@ -64,17 +67,17 @@
         <ul class="card-list">
           <li class="card-item">
             <a>
-              <div class="card-container-img card-container--first">
+              <article class="card__container">
                 <img
-                  class="card-item-img card-img--first"
+                  class="card-item-img"
                   src="./images/first-card.png"
                   alt="первая карточка"
                 />
-              </div>
+              </article>
               <div class="card-item-description">
-                <h2 class="card-item-description-title">
+                <h3 class="card-item-description-title">
                   Разнообразие взглядов и&nbsp;подходов
-                </h2>
+                </h3>
                 <p class="card-item-description-text">
                   Обучение в команде позволяет каждому участнику внести вклад
                   в&nbsp;процесс обучения благодаря их уникальному опыту и
@@ -85,17 +88,17 @@
           </li>
           <li class="card-item">
             <a>
-              <div class="card-container-img card-container--second">
+              <article class="card__container">
                 <img
-                  class="card-item-img card-img--second"
+                  class="card-item-img"
                   src="./images/second-card.png"
                   alt="вторая карточка"
                 />
-              </div>
+              </article>
               <div class="card-item-description">
-                <h2 class="card-item-description-title">
+                <h3 class="card-item-description-title">
                   Возможность обмена знаниями и навыками
-                </h2>
+                </h3>
                 <p class="card-item-description-text">
                   Каждый участник команды может поделиться своими знаниями и
                   навыками со&nbsp;своими коллегами и&nbsp;узнать что-то новое
@@ -106,17 +109,17 @@
           </li>
           <li class="card-item">
             <a>
-              <div class="card-container-img card-container--third">
+              <article class="card__container">
                 <img
-                  class="card-item-img card-img--third"
+                  class="card-item-img"
                   src="./images/third-card.png"
                   alt="третья карточка"
                 />
-              </div>
+              </article>
               <div class="card-item-description">
-                <h2 class="card-item-description-title">
+                <h3 class="card-item-description-title">
                   Возможность повысить мотивацию и&nbsp;продуктивность
-                </h2>
+                </h3>
                 <p class="card-item-description-text">
                   Обучение в команде может стать мотиватором для участников
                   команды, наиболее эффективно использовать свои знания
@@ -127,17 +130,17 @@
           </li>
           <li class="card-item">
             <a>
-              <div class="card-container-img card-container--fourth">
+              <article class="card__container">
                 <img
-                  class="card-item-img card-img--fourth"
+                  class="card-item-img"
                   src="./images/fourth-card.png"
                   alt="четвертая карточка"
                 />
-              </div>
+              </article>
               <div class="card-item-description">
-                <h2 class="card-item-description-title">
+                <h3 class="card-item-description-title">
                   Сокращение времени обучения
-                </h2>
+                </h3>
                 <p class="card-item-description-text">
                   Обучение в команде позволяет участникам быстрее усваивать
                   знания благодаря взаимному обмену опытом и&nbsp;информацией.
@@ -148,13 +151,16 @@
         </ul>
       </section>
       <section class="info">
+        <h2 class="visually-hidden">Взаимодействие в команде</h2>
         <p class="info-teamwork-tip info-text">
           Взаимодействие в команде может быть сложным,
-          <span class="info-teamwork-tip-selecting-text--green"
+          <span
+            class="info-teamwork-tip__selecting-text info-teamwork-tip-selecting-text--green"
             >но если правильно настроиться и&nbsp;работать совместно,</span
           >
           результаты могут быть впечатляющими.
-          <span class="info-teamwork-tip-selecting-text--purple"
+          <span
+            class="info-teamwork-tip__selecting-text info-teamwork-tip-selecting-text--purple"
             >Важно со старта понять и&nbsp;принять: ни у кого не получалось
             идеально с&nbsp;первого раза!</span
           >
@@ -207,6 +213,7 @@
     </main>
     <footer class="footer">
       <section class="footer__nav">
+        <h2 class="visually-hidden">Подвал страницы</h2>
         <ul class="footer__nav-list">
           <li class="footer__nav-item">
             <a
